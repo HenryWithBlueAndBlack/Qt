@@ -21,6 +21,7 @@ void Widget::topMenuButtonMake1()
     QMenu * topBtn1Menu = ui->topButton1->getMenu();
     QAction *ActTM1SelecPro = new QAction("程序处理",topBtn1Menu);
     topBtn1Menu->addAction(ActTM1SelecPro);
+
 }
 
 void Widget::topMenuButtonMake2()
